@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    overflow: hidden; 
+    height: 100vh;
+    background-color: black;
+    background-image: url("img/apple-macbook-pro-stock-2021-apple-event-2021-dark-mode-6016x5468-6759.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main_panel{
+    display: inline-block;
+    max-width: fit-content;
+    white-space: nowrap;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+    border: 1px solid whitesmoke;
+    /*padding: 3%;*/
+    padding-top: 7px;
+    box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.2);
+}
+.main_bar{
+    display: flex;
+    justify-content: space-around;
+    border-bottom-style: solid;
+    border-bottom: 1px solid whitesmoke;
+    border-style: 1px;
+    padding: 0 !important;
+}
+#adm_name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    font-weight: lighter;
+    font-size:medium;
+}
+#adm_ppf{
+    border-radius: 100%;
+    height: 36px;
+    width: 36px;
+    margin-right: 4%;
+}
+#home_bnt{
+    background: none;
+    border: none;
+    padding: auto;
+}
+#home_icon{
+    border: none;
+    padding: none;
+    width: 26px;
+    height: 26px;
+}
+.BTC{
+    padding: 4%;
+}
+#btc_qr{
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: auto;
+    border-radius: 52px;
+}
+#btc_code{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 800px;
+}
